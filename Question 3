@@ -19,9 +19,5 @@ float Function(int Array[], int Size) {
 			Min = Array[i];
 	}
 	Average = Sum / Size;
-	return (Average, Max, Min, Even [], evensize);
-}
-
-Int main()
-{
+	return (Average, Max, Min, Even[], evensize);
 }
