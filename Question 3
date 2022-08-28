@@ -1,23 +1,25 @@
 
-#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
 
-using namespace std;
+typedef struct {
+	int Max=0, int Min=0, int Sum=0, int evensize, int Even[];
+	float Average;
+}Mystruct
 
-float Function(int Array[], int Size) {
-	float Sum = 0, float Average = 0, float Min = Array[0], Max = Array[0];
-	int Even [], int evensize = 0;
-
+My struct Function(int Array[], int Size) {
+	Mystruct m2;
 	for (int i = 0; i < Size; i++ {
-		Sum += Array[i];
+		m2.Sum += Array[i];
 		if (Array[i] % 2 == 0){
-        		Even[i] = Array[i];
-            		evensize ++;
+        		m2.Even[i] = Array[i];
+            		m2.evensize ++;
         	}
-		if (Array[i] > Max)
-			Max = Array[i];
-		else if (Array[i] < Min)
-			Min = Array[i];
+		if (Array[i] > m2.Max)
+			m2.Max = Array[i];
+		else if (Array[i] < m2.Min)
+			m2.Min = Array[i];
 	}
-	Average = Sum / Size;
-	return (Average, Max, Min, Even[], evensize);
+	m2.Average = m2.Sum / Size;
+	return m2
 }
