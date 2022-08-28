@@ -21,5 +21,5 @@ My struct Function(int Array[], int Size) {
 			m2.Min = Array[i];
 	}
 	m2.Average = m2.Sum / Size;
-	return m2
+	return m2;
 }
