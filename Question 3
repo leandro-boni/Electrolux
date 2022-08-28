@@ -1,0 +1,27 @@
+
+#include <iostream>
+
+using namespace std;
+
+float Function(int Array[], int Size) {
+	float Sum = 0, float Average = 0, float Min = Array[0], Max = Array[0];
+	int Even [], int evensize = 0;
+
+	for (int i = 0; i < Size; i++ {
+		Sum += Array[i];
+	if (Array[i] % 2 == 0){
+            		Even[i] = Array[i];
+            		evensize ++;
+        	}
+	If (Array[i] > Max)
+		Max = Array[i];
+else if (Array[i] < Min)
+		Min = Array[i];
+	}
+	Average = Sum / Size;
+	return (Average, Max, Min, Even [], evensize);
+}
+
+Int main()
+{
+}
